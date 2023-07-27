@@ -1,7 +1,6 @@
 {
   "name": "newsletter-sign-up-vue-init",
   "version": "1.0.0",
-  "homepage": "https://felipestefani.github.io/newsletter-sign-up/",
   "private": true,
   "scripts": {
     "dev": "vite",
