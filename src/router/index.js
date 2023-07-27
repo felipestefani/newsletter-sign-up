@@ -9,7 +9,6 @@ const routes = [
 
 const router = createRouter({
     history: createWebHistory(),
-    base: '/newsletter-sign-up/',
     routes
 })
 
