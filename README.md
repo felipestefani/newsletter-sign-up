@@ -47,8 +47,8 @@ Mobile design hasn't screenshots, but it also works!
 
 ### Links
 
-- Solution URL: [Solution directory](https://github.com/felipestefani/newsletter-sign-up)
-- Live Site URL: [live solution](https://your-live-site-url.com)
+- Solution URL: [https://github.com/felipestefani/newsletter-sign-up](https://github.com/felipestefani/newsletter-sign-up)
+- Live Site URL: [https://felipestefani.github.io/newsletter-sign-up/](https://felipestefani.github.io/newsletter-sign-up/)
 
 ## My process
 
