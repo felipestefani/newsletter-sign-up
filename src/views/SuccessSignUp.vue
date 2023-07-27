@@ -59,7 +59,6 @@
         .container{
             min-height: 100vh;
             align-items: flex-end;
-            border: 1px solid rebeccapurple;
         }
         main {
             padding: 2em 1.5em 1em;
