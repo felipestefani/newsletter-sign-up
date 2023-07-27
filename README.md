@@ -40,10 +40,10 @@ Users should be able to:
 
 Mobile design hasn't screenshots, but it also works!
 
-![](./public/desktop_design.png)
-![](./public/desktop_hover.png)
-![](./public/desktop_error.png)
-![](./public/desktop_success.png)
+![](./src/assets/images/desktop_design.png)
+![](./src/assets/images/desktop_hover.png)
+![](./src/assets/images/desktop_error.png)
+![](./src/assets/images/desktop_success.png)
 
 ### Links
 
