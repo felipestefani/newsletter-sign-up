@@ -1,7 +1,7 @@
 ## About me
 
 - LinkedIn - [Felipe Stefani](https://www.linkedin.com/in/felipe-stefani-a35185116/)
-- Instagram - [A@felipestefani](https://www.instagram.com/felipestefani/)
+- Instagram - [@felipestefani](https://www.instagram.com/felipestefani/)
 - Frontend Mentor - [@felipestefani](https://www.frontendmentor.io/profile/felipestefani)
 
 
