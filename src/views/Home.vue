@@ -1,7 +1,9 @@
 <script setup>
+  import router from "../router";
   import Footer from "../components/Footer.vue";
   import { ref, onMounted, onUnmounted } from "vue";
- 
+
+  const navigate = link => router.push(link)
   const list = ['Product discovery and building what matters', 'Measuring to ensure updates are a success', 'And much more!' ]
   const email = ref('')
   const invalidEmail = ref(false)
@@ -25,10 +27,9 @@
   const subscribe = () => {
     const valid_email = /^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/g
     valid_email.test(email.value) 
-      ? console.log('ok') 
+      ? navigate('/success-sign-up')
       : invalidEmail.value = !invalidEmail.value
   }
-
 </script>
 
 <template>
@@ -127,7 +128,6 @@
     background-color: hsl(234, 29%, 20%);
     padding: 0;
   }
-
   .ivalid_email {
     border: 1px solid hsl(4, 100%, 67%);
     background-color: hsla(4, 100%, 67%, 0.1);
@@ -137,15 +137,12 @@
     width: 48.5%;
     padding: 1.5em;
   }
-
   button:hover, input:hover{
     cursor: pointer;
   }
-
   button:hover{
     background: linear-gradient(to right, hsl(325, 73%, 66%), 20%,hsl(4, 100%, 67%));
   }
-
   input:hover {
     border: 1px solid hsl(234, 29%, 20%);
   }
