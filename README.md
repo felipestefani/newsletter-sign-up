@@ -40,10 +40,12 @@ Users should be able to:
 
 Mobile design hasn't screenshots, but it also works!
 
-![](./src/assets/images/desktop_design.png)
-![](./src/assets/images/desktop_hover.png)
-![](./src/assets/images/desktop_error.png)
-![](./src/assets/images/desktop_success.png)
+![](./src/assets/gh_images/Screenshot%202023-07-29%20at%2002.14.33.png)
+![](./src/assets/gh_images/Screenshot%202023-07-29%20at%2002.14.40.png)
+![](./src/assets/gh_images/Screenshot%202023-07-29%20at%2002.14.59.png)
+![](./src/assets/gh_images/Screenshot%202023-07-29%20at%2002.15.19.png)
+![](./src/assets/gh_images/Screenshot%202023-07-29%20at%2002.15.54.png)
+![](./src/assets/gh_images/Screenshot%202023-07-29%20at%2002.16.27.png)
 
 ### Links
 
