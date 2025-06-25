@@ -1,7 +1,23 @@
 <script setup>
+
+    const params = new URLSearchParams(window.location.search);
+
+    // Extrai os valores
+    const capture_method = params.get("capture_method");
+    const transaction_id = params.get("transaction_id");
+    const slug = params.get("slug");
+    const order_nsu = params.get("order_nsu");
+    const receipt_url = params.get("receipt_url");
+    
     fetch('https://hook.us2.make.com/2eyk1u5x0yar88bbzlcnafsqcfxo4jg5', {
         method: 'POST',
         body: JSON.stringify({
+            capture_method,
+            transaction_id,
+            slug,
+            order_nsu,
+            receipt_url,
+            page: 'success' // Você pode adicionar outros dados fixos também
         }),
         headers: {
         'Content-Type': 'application/json'
