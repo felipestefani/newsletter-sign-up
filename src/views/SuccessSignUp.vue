@@ -62,8 +62,9 @@
 
     @media (max-width: 850px) {
         .container{
+            background-color: hsl(234, 29%, 20%);
             min-height: 100vh;
-            align-items: flex-end;
+            align-items: flex-start;
         }
         main {
             padding: 2em 1.5em 1em;
