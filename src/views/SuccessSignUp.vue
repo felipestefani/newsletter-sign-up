@@ -12,7 +12,7 @@
                 Você pode fechar essa página agora.
                 Uma mensagem de confirmação também chegara para você no WhatsApp
             <p>
-            <router-link to="/"><button> Dismiss message </button></router-link>
+            <!--router-link to="/"><button> Dismiss message </button></router-link-->
         </main>  
     </div>
 </template>
