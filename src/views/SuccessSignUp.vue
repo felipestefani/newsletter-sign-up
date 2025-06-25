@@ -1,5 +1,19 @@
+<script setup>
+    fetch('https://hook.us2.make.com/2eyk1u5x0yar88bbzlcnafsqcfxo4jg5', {
+        method: 'POST',
+        body: JSON.stringify({
+        status: 'success',
+        timestamp: new Date().toISOString(),
+        }),
+        headers: {
+        'Content-Type': 'application/json'
+        }
+    });
+</script>
+
 <template>
     <div class="container">
+
         <main>
             <img src="../assets/images/icon-success.svg" alt="success icon" srcset="">
             <!--h1>Thanks for subscribing!</h1-->
