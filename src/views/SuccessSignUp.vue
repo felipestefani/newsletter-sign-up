@@ -8,6 +8,7 @@
     const slug = params.get("slug");
     const order_nsu = params.get("order_nsu");
     const receipt_url = params.get("receipt_url");
+    const contact_id = params.get("contactID")
     
     fetch('https://hook.us2.make.com/2eyk1u5x0yar88bbzlcnafsqcfxo4jg5', {
         method: 'POST',
@@ -17,6 +18,7 @@
             slug,
             order_nsu,
             receipt_url,
+            contact_id,
             page: 'success' // Você pode adicionar outros dados fixos também
         }),
         headers: {
