@@ -2,11 +2,16 @@
     <div class="container">
         <main>
             <img src="../assets/images/icon-success.svg" alt="success icon" srcset="">
-            <h1>Thanks for subscribing!</h1>
-            <p>
+            <!--h1>Thanks for subscribing!</h1-->
+            <h1>Pagamento efetuado com SUCESSO</h1>
+            <!--p>
                 A confirmation email has been sent to <span>ash@loremcompany.com</span>. 
                 Please open it and click the button inside to confirm your subscription.
-            </p>
+            </p-->
+            <p>
+                Você pode fechar essa página agora.
+                Uma mensagem de confirmação também chegara para você no WhatsApp
+            <p>
             <router-link to="/"><button> Dismiss message </button></router-link>
         </main>  
     </div>
