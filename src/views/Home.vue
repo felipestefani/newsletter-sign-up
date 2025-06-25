@@ -24,12 +24,12 @@
     return width
   }
   const width = useWindowSize()
-  const subscribe = () => {
+  /*const subscribe = () => {
     const valid_email = /^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/g
     valid_email.test(email.value) 
       ? navigate('/success-sign-up')
       : invalidEmail.value = !invalidEmail.value
-  }
+  }*/
 </script>
 
 <template>
