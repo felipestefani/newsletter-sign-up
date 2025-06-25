@@ -64,7 +64,7 @@
         .container{
             background-color: hsl(234, 29%, 20%);
             min-height: 100vh;
-            align-items: flex-start;
+            align-items: center;
         }
         main {
             padding: 2em 1.5em 1em;
